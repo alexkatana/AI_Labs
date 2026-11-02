@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib>=3.9
+Pillow
+ipython
+scipy
+jupyterlab

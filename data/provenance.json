@@ -1,0 +1,7 @@
+{
+  "source": "https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification",
+  "archive_sha256": "cd100a33f7014523d8887715f15fe5fc5c322bddfb9aba1c14932a9a93fb19f5",
+  "labeled_images": 6499,
+  "unlabeled_images": 2786,
+  "analysis_scope": "all labeled training images"
+}
