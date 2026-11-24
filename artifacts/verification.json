@@ -1,0 +1,32 @@
+{
+  "01_lab_python_intro.ipynb": {
+    "executed_code_cells": 23,
+    "plots": 0,
+    "errors": [
+      [
+        4,
+        "AssertionError"
+      ]
+    ]
+  },
+  "02_lab_EDA.ipynb": {
+    "executed_code_cells": 10,
+    "plots": 9,
+    "errors": []
+  },
+  "03_lab_ml_intro.ipynb": {
+    "executed_code_cells": 7,
+    "plots": 3,
+    "errors": []
+  },
+  "04_lab_dl_intro.ipynb": {
+    "executed_code_cells": 7,
+    "plots": 2,
+    "errors": []
+  },
+  "05_lab_nn_intro.ipynb": {
+    "executed_code_cells": 12,
+    "plots": 11,
+    "errors": []
+  }
+}

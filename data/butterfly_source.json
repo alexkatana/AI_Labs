@@ -1,0 +1,11 @@
+{
+  "source": "https://www.kaggle.com/datasets/phucthaiv02/butterfly-image-classification",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/phucthaiv02/butterfly-image-classification",
+  "archive_sha256": "cd100a33f7014523d8887715f15fe5fc5c322bddfb9aba1c14932a9a93fb19f5",
+  "archive_bytes": 236814249,
+  "labeled_before_cleaning": 6499,
+  "unlabeled_kaggle_test": 2786,
+  "labeled_after_cleaning": 6495,
+  "train": 5196,
+  "validation": 1299
+}

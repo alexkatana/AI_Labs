@@ -1,0 +1,5 @@
+model,cv_macro_f1,best_params
+RandomForest,0.3240553304030791,"{""model__max_depth"": 6, ""model__min_samples_leaf"": 1}"
+LogisticRegression,0.2999514443346822,"{""model__C"": 10}"
+DecisionTree,0.2872659412900504,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1}"
+KNN,0.26984175781839076,"{""model__n_neighbors"": 3}"

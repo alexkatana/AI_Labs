@@ -1,0 +1,78 @@
+Cell 3: 3.71s
+Размеченных/неразмеченных изображений: 6499 2786
+Классов: 75 ; устройство: cpu
+
+Cell 5: 4.69s
+Ошибок чтения: 0
+Пропусков меток: 0
+Размеры изображений:
+Групп противоречивой разметки: 0
+Удалено точных повторов сверх первых: 4
+После очистки: 6495 ; train/val: 5196 1299
+
+Cell 7: 7.18s
+
+Cell 9: 0.64s
+Минимум/максимум: 71/131; отношение 1.85.
+
+Cell 12: 0.00s
+Преобразования train: Compose(
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    ColorJitter(brightness=(0.85, 1.15), contrast=(0.85, 1.15), saturation=(0.9, 1.1), hue=None)
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+Batch size изображений: 48; обучение головы: 128.
+
+Cell 14: 171.26s
+Модель: MobileNetV2, веса: MobileNet_V2_Weights.IMAGENET1K_V2
+Выходных классов: 75
+Обучаемых параметров: 96075
+Замороженных параметров: 2223872
+train (5196, 1280) секунд с начала: 70.9
+train_aug (5196, 1280) секунд с начала: 152.1
+val (1299, 1280) секунд с начала: 171.2
+
+Cell 16: 6.21s
+Epoch 01: train loss/acc 1.0311/0.8635; val 1.2072/0.8091
+Epoch 02: train loss/acc 0.5838/0.9142; val 0.8002/0.8507
+Epoch 03: train loss/acc 0.4030/0.9396; val 0.6489/0.8630
+Epoch 04: train loss/acc 0.3041/0.9640; val 0.5668/0.8776
+Epoch 05: train loss/acc 0.2451/0.9725; val 0.5230/0.8768
+Epoch 06: train loss/acc 0.2043/0.9765; val 0.4986/0.8830
+Epoch 07: train loss/acc 0.1740/0.9808; val 0.4713/0.8845
+Epoch 08: train loss/acc 0.1509/0.9848; val 0.4578/0.8814
+Epoch 09: train loss/acc 0.1336/0.9867; val 0.4500/0.8861
+Epoch 10: train loss/acc 0.1192/0.9902; val 0.4404/0.8884
+Epoch 11: train loss/acc 0.1080/0.9917; val 0.4330/0.8915
+Epoch 12: train loss/acc 0.1005/0.9911; val 0.4281/0.8830
+Epoch 13: train loss/acc 0.0934/0.9929; val 0.4257/0.8884
+Epoch 14: train loss/acc 0.0872/0.9940; val 0.4206/0.8876
+Epoch 15: train loss/acc 0.0827/0.9936; val 0.4203/0.8891
+Epoch 16: train loss/acc 0.0790/0.9944; val 0.4196/0.8884
+Epoch 17: train loss/acc 0.0757/0.9967; val 0.4153/0.8907
+Epoch 18: train loss/acc 0.0733/0.9965; val 0.4133/0.8915
+Epoch 19: train loss/acc 0.0714/0.9967; val 0.4125/0.8915
+Epoch 20: train loss/acc 0.0702/0.9963; val 0.4113/0.8922
+Epoch 21: train loss/acc 0.0692/0.9965; val 0.4120/0.8907
+Epoch 22: train loss/acc 0.0686/0.9969; val 0.4114/0.8915
+Epoch 23: train loss/acc 0.0683/0.9967; val 0.4112/0.8922
+Epoch 24: train loss/acc 0.0681/0.9967; val 0.4108/0.8922
+Epoch 25: train loss/acc 0.0681/0.9967; val 0.4109/0.8922
+Сохранена лучшая эпоха: 24
+
+Cell 18: 0.70s
+
+Cell 21: 0.85s
+
+Cell 23: 0.01s
+Лучшая эпоха: 24
+Train/val accuracy: 0.9967/0.8922
+Разрыв train−val: 0.1045
+Validation участвовала в выборе эпохи; независимого финального теста с метками нет.
+
+Cell 26: 0.72s
+Y — правильный класс; N — ошибка. Эти 10 примеров иллюстрируют ответы, но не заменяют метрики всей validation.
+

@@ -1,7 +1,12 @@
 numpy
 pandas
+scipy
+scikit-learn>=1.4
 matplotlib>=3.9
 Pillow
+torch>=2.2
+torchvision>=0.17
 ipython
-scipy
+nbformat
 jupyterlab
+joblib

@@ -1,0 +1,47 @@
+Cell 3: 2.51s
+Устройство: cpu
+Удалено повторов: 240
+Train/val/test: 869 218 272
+
+Cell 5: 0.01s
+Пропуски train/val/test: 0 0 0
+Кодировка целевой переменной: {3: 0, 4: 1, 5: 2, 6: 3, 7: 4, 8: 5}
+Средние стандартизированных train-признаков: [-0.  0.  0. -0. -0. -0.  0. -0. -0. -0. -0.]
+
+Cell 7: 0.00s
+Размер батча обучения: 64. Размерности: torch.Size([11])
+
+Cell 9: 7.48s
+Linear_SGD: val-loss=0.9624, выбрана эпоха 120/120
+Hidden1_Adam: val-loss=0.9163, выбрана эпоха 77/120
+Hidden3_Adam: val-loss=0.9096, выбрана эпоха 35/120
+Выбор модели по val-loss: Hidden3_Adam
+Out[4]: ['/workspace/scratch/895c4588cf83/submission/artifacts/lab4_preprocessing.joblib']
+
+Cell 11: 0.51s
+
+Cell 13: 0.12s
+Базовая test Accuracy при постоянном предсказании самого частого train-класса: 0.4264705882352941
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         2
+           4       0.00      0.00      0.00        11
+           5       0.67      0.72      0.70       116
+           6       0.61      0.66      0.63       107
+           7       0.55      0.48      0.52        33
+           8       0.00      0.00      0.00         3
+
+    accuracy                           0.63       272
+   macro avg       0.31      0.31      0.31       272
+weighted avg       0.59      0.63      0.61       272
+
+
+Cell 15: 0.00s
+Выбранная по validation модель: Hidden3_Adam
+Linear_SGD: train acc=0.595, val acc=0.624, test acc=0.585; разрыв train−test=0.010
+  val-loss выбранной/последней эпохи: 0.9624/0.9624
+Hidden1_Adam: train acc=0.647, val acc=0.647, test acc=0.621; разрыв train−test=0.025
+  val-loss выбранной/последней эпохи: 0.9163/0.9321
+Hidden3_Adam: train acc=0.643, val acc=0.638, test acc=0.629; разрыв train−test=0.015
+  val-loss выбранной/последней эпохи: 0.9096/1.0847
+
